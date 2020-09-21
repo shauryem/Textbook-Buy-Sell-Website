@@ -4,7 +4,7 @@ This is the user guide of Textbooks. For other documents please check the links 
 
 ## What is Textbooks?
 
-Textbooks is a web application for UCSB students to sale their used textbooks.
+Textbooks is a web application for students to sale their used textbooks.
 
 After login with google account, sellers can post their books on our website, and buyers can send an email to the seller to notify the seller that (s)he is interested in his book
 
