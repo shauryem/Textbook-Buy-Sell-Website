@@ -2,6 +2,7 @@ import { authenticatedAction } from "../../utils/api";
 import { initDatabase } from "../../utils/mongodb";
 import { ObjectId } from "mongodb";
 
+// Node.js : backend to delete user posts
 async function deletePost(postId) {
   const client = await initDatabase();
   const posts = client.collection("posts");
