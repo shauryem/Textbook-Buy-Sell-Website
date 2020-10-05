@@ -3,10 +3,11 @@
 
 
 
-- [Part 2: Programmers Guide](./programmers_guide.md)
+
 
 ### Live Site: https://cs48-s20-s3-t4-prod.herokuapp.com/
 
+- [Programmers Guide](./programmers_guide.md)
 
 ## What is Textbooks?
 
