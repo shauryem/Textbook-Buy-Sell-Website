@@ -1,3 +1,5 @@
+// Helper function that formats the time and dates
+
 export function currentDate() {
   var date = new Date();
   var hour = date.getHours();
