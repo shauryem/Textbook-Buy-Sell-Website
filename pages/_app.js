@@ -4,6 +4,8 @@ import { ToastProvider } from "../components/Toasts";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-bootstrap-table-next/dist/react-bootstrap-table2.min.css";
 
+// configures pages so toast notifications work properly 
+
 function MyApp({ Component, pageProps }) {
   return (
     <ToastProvider>
