@@ -20,6 +20,8 @@ import { currentDate } from "../utils/date";
 import { useToasts } from "../components/Toasts";
 import Toast from "react-bootstrap/Toast";
 
+// Allows users to submit a texbook for sale: POST requests to /api backend
+
 export const getServerSideProps = async ({ req, res }) => {
   const ssr = await requiredAuth({ req, res });
 
