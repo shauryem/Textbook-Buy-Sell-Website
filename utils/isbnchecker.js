@@ -1,3 +1,5 @@
+// Helper function that makes sure the ISBN inpoutted by a buyer is real
+
 export function isbnformatchecker(isbn_with_hyphens) {
   let isbn = isbn_with_hyphens.replace(/-/g, "");
   if (isbn.length == 13) {
