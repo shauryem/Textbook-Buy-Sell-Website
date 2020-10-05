@@ -1,5 +1,7 @@
 import auth0 from "../../utils/auth0";
 
+// Calls atho0 login
+
 export default async function (req, res) {
   try {
     await auth0.handleLogin(req, res);
