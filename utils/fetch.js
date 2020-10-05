@@ -1,5 +1,7 @@
 import unfetch from "isomorphic-unfetch";
 
+// fetch and fetchWithToken functions
+
 export async function fetch(url, options) {
   const response = await unfetch(url, options);
 
