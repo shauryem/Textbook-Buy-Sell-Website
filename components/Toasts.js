@@ -7,6 +7,9 @@ import {
 } from "react";
 import Toast from "react-bootstrap/Toast";
 
+// Component that displays notfications to users (Top corner) 
+
+
 const ToastContext = createContext({ showToast: null });
 
 export function useToasts() {
