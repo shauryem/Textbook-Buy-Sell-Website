@@ -1,5 +1,7 @@
 import auth0 from "../../utils/auth0";
 
+// Handles unauthorized access
+
 export default async function (req, res) {
   try {
     await auth0.handleCallback(req, res, { redirectTo: "/" });
