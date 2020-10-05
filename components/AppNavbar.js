@@ -7,6 +7,8 @@ import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
 import styles from "./AppNavbar.module.css";
 
+// Navbar component located on every page of the site
+
 function AppNavbar(props) {
   const user = props.user;
 
@@ -23,6 +25,9 @@ function AppNavbar(props) {
           </Navbar.Brand>
         </Link>
         <Navbar.Toggle />
+    
+// Navbar options only appear if a user is logged in
+    
         <Navbar.Collapse className="justify-content-end">
           <Nav className="mr-auto">
             {user && (
