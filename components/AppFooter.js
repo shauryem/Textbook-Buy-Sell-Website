@@ -1,10 +1,12 @@
 import Container from "react-bootstrap/Container";
 
+// Text located at the bottom of every page
+
 function AppFooter() {
   return (
     <Container>
       <br />
-      <h4>This is a Next.js web app for CS48 Spring 2020 at UCSB.</h4>
+      <h4>This is a Next.js web app built for UCSB students.</h4>
     </Container>
   );
 }
