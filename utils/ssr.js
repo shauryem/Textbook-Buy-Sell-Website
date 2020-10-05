@@ -1,5 +1,7 @@
 import auth0 from "./auth0";
 
+// Functions allowing some pages to require auth and some that dont
+
 export async function optionalAuth({ req }) {
   const session = await auth0.getSession(req);
 
