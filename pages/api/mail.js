@@ -1,6 +1,8 @@
 import nodemailer from "nodemailer";
 import { authenticatedAction } from "../../utils/api";
 
+// Utilizes NodeMailer - a Node.js module - to allow users to send their information to buyers
+
 export default async function sendMail(req, user) {
   const to = req.body.to;
   const email = req.body.email;
