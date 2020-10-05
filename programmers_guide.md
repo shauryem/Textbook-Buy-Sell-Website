@@ -1,6 +1,6 @@
 # Programmers Guide
 
-### In order to build our textbook buy and sell web app, we chose to use the following technologies. More information regarding each feature can be found by clicking the linked names.
+### In order to build the textbook buy and sell web app, I chose to use the following technologies. More information regarding each feature can be found by clicking the linked names.
 
 - Next.js - a framework built on React and Javascript. https://nextjs.org/
 - React Bootstrap - a front end framework built for React used for our UI elements https://react-bootstrap.github.io/
