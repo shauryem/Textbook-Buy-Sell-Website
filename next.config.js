@@ -1,5 +1,7 @@
 require("dotenv").config();
 
+// config file with .env variables 
+
 function mongodb_uri() {
   //if (process.env.NODE_ENV == "production") {
   //  return process.env.MONGODB_URI_PRODUCTION;
