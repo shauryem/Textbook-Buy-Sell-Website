@@ -21,6 +21,8 @@ import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 import { useToasts } from "../components/Toasts";
 
+// The home page - features searching and display of available textbooks
+
 export const getServerSideProps = async ({ req, res }) => {
   const ssr = await optionalAuth({ req, res });
 
@@ -198,13 +200,13 @@ function refresh() {
 }
 
 function HomePage(props) {
-  const { user, initialData } = props;
-  const { data, mutate } = useSWR("/api/index", { initialData });
+  const {user, initialData} = props;
+  const {data, mutate} = useSWR("/api/index", { initialData });
   const [newISBN, setNewISBN] = useState("");
   const [newName, setNewName] = useState("");
   const [newClass, setNewClass] = useState("");
   const [newProfessor, setNewProfessor] = useState("");
-  const { showToast } = useToasts();
+  const {showToast} = useToasts();
   let canSendEmail = 1;
 
   const handleSubmit = (e) => {
