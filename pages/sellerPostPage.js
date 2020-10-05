@@ -16,6 +16,8 @@ import { getUsersPosts } from "./api/index";
 import { serializeDocument } from "../utils/mongodb";
 import Head from "next/head";
 
+// Allows users to see their books they posted and delte any postings
+
 export const getServerSideProps = async ({ req, res }) => {
   const ssr = await requiredAuth({ req, res });
 
