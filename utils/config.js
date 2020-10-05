@@ -1,7 +1,7 @@
 if (typeof window === "undefined") {
-  /**
-   * Settings exposed to the server.
-   */
+  
+   // Settings exposed to the server.
+   
   module.exports = {
     // For the initial deployment, Auth0 configuration will not be initialized.
     // MOCK_AUTH0 is true when Auth0 isn't configured so that the initial build will succeed.
@@ -17,9 +17,9 @@ if (typeof window === "undefined") {
     SESSION_COOKIE_LIFETIME: process.env.SESSION_COOKIE_LIFETIME,
   };
 } else {
-  /**
-   * Settings exposed to the client.
-   */
+ 
+   // Settings exposed to the client.
+   
   module.exports = {
     AUTH0_CLIENT_ID: process.env.AUTH0_CLIENT_ID,
     AUTH0_SCOPE: process.env.AUTH0_SCOPE,
