@@ -1,6 +1,6 @@
 import Container from "react-bootstrap/Container";
 
-// Text located at the bottom of every page
+// Text located at the bottom of every page:
 
 function AppFooter() {
   return (
