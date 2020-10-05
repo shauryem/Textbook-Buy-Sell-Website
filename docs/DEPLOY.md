@@ -1,5 +1,6 @@
 # Deployment Instructions (Lab05)
 
+
 - Go to http://signup.heroku.com and create an account with Heroku (if you don't already have an account)
 - Create a new app on Heroku (click new on the top right corner of your dashboard, then click "Create a new app", enter a name, then click create)
 - Click on the app you just created and then click on deploy; scroll down to where it says connect and connect it to the github repo
