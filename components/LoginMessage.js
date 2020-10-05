@@ -1,6 +1,8 @@
 function LoginMessage(props) {
   const user = props.user;
 
+  // Simple component that notifies the user when he/she is logged in
+  
   return (
     <div>
       {user ? (
