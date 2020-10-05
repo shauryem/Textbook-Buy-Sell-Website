@@ -1,6 +1,8 @@
 import { initAuth0 } from "@auth0/nextjs-auth0";
 import config from "./config";
 
+// Auth0 configuration
+
 export default config.MOCK_AUTH0
   ? {}
   : initAuth0({
