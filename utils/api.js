@@ -1,5 +1,7 @@
 import auth0 from "./auth0";
 
+// Called every time a user performs an action, making sure the correct access is present. 
+
 export function authenticatedAction(actionFn) {
   return auth0.requireAuthentication(async function (req, res) {
     try {
