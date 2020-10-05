@@ -2,6 +2,8 @@ import { authenticatedAction } from "../../utils/api";
 import { initDatabase } from "../../utils/mongodb";
 import { currentDate } from "../../utils/date";
 
+// Main Node.js backend to get a users post and to allow users to create new posts
+
 export async function getUsersPosts(user) {
   const client = await initDatabase();
   const posts = client.collection("posts");
