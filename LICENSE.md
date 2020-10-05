@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2020 Rhys Tracy
+Copyright (c) 2020 Shaurye Mahajan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
